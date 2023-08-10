@@ -1,0 +1,23 @@
+server:
+  http:
+    addr: 0.0.0.0:4000
+    timeout: 1s
+  grpc:
+    addr: 0.0.0.0:5000
+    timeout: 1s
+database:
+  postgres:
+    host: 47.120.5.83
+    user: postgres
+    password: "263393"
+    dbname: tiktok
+    port: "5432"
+    ssl_mode: "disable"
+    time_zone: "Asia/Shanghai"
+  redis:
+    host: localhost
+    password: password
+    port: 6543
+    database: postgres
+    read_timeout: 0.2s
+    write_timeout: 0.2s
