@@ -9,6 +9,7 @@ import (
 	"tiktok/internal/biz"
 	"tiktok/internal/conf"
 	"tiktok/internal/data"
+	"tiktok/internal/interfaces"
 	"tiktok/internal/server"
 	"tiktok/internal/service"
 
